@@ -1,31 +1,38 @@
-$blue:    #389AFF;
-$indigo:  #6610f2;
-$purple:  #6f42c1;
-$pink:    #d63384;
-$red:     #dc3545;
-$orange:  #fd7e14;
+$brand-blue: #289AFF;
+$brand-magenta: #EA1D64;
+$brand-orange: #F9A81A;
+$app-blue: #389AFF;
+$brand-forest: #009688;
+$brand-lime: #6FBE44;
+  
+$blue:    $app-blue;
+$indigo:  #673AB7;
+$purple:  #9C27B0;
+$pink:    $brand-magenta;
+$red:     #E62A10;
+$orange:  $brand-orange;
 $yellow:  #ffc107;
-$green:   #198754;
+$green:   $brand-forest;
 $teal:    #20c997;
 $cyan:    #0dcaf0;
 
 $white:    #fff;
-$gray-100: #f8f9fa;
-$gray-200: #e9ecef;
-$gray-300: #dee2e6;
-$gray-400: #ced4da;
-$gray-500: #adb5bd;
-$gray-600: #6c757d;
-$gray-700: #495057;
-$gray-800: #343a40;
-$gray-900: #212529;
+$gray-100: #f5f5f5;
+$gray-200: #eeeeee;
+$gray-300: #e0e0e0;
+$gray-400: #bdbdbd;
+$gray-500: #9e9e9e;
+$gray-600: #757575;
+$gray-700: #616161;
+$gray-800: #424242;
+$gray-900: #212121;
 $black:    #000;
 
 $primary:       $blue; // This should be a dark/vibrant color not light. Light colors will work poorly
 $secondary:     $gray-600; // This should be a dark/vibrant color not light. Light colors will work poorly
 $success:       $green;
-$info:          $cyan;
-$warning:       $yellow;
+$info:          $blue;
+$warning:       $brand-orange;
 $danger:        $red;
 $light:         $gray-100;
 $dark:          $gray-900;
