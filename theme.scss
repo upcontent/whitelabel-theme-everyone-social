@@ -5,7 +5,7 @@ $app-blue: #389AFF;
 $brand-forest: #009688;
 $brand-lime: #6FBE44;
   
-$blue:    $app-blue;
+$blue:    $brand-blue;
 $indigo:  #673AB7;
 $purple:  #9C27B0;
 $pink:    $brand-magenta;
@@ -37,7 +37,14 @@ $danger:        $red;
 $light:         $gray-100;
 $dark:          $gray-900;
 
+
 $font-family-sans-serif:      system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
 $font-family-monospace:       SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
 
 @import 'node_modules/bootstrap/scss/bootstrap';
+.btn-primary, .btn-success, .btn-warning, .btn-danger {
+  --bs-btn-color: white;
+  --bs-btn-hover-color: white;
+  --bs-btn-active-color: white;
+  --bs-btn-disabled-color: white;
+}
